@@ -3,7 +3,8 @@ import { StyledBackground } from './home.styled';
 const Home = () => {
   return (
     <>
-      <StyledBackground>
+      <h1>Home</h1>
+      {/* <StyledBackground>
         <source
           srcset='/assets/images/home/background-home-desktop.jpg'
           media='(min-width: 1400px)'
@@ -21,8 +22,7 @@ const Home = () => {
           src='/assets/images/home/background-home-mobile.jpg'
           alt=''
         />
-      </StyledBackground>
-      <h1>Home</h1>
+      </StyledBackground> */}
     </>
   );
 };

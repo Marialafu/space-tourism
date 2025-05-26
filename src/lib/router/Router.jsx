@@ -4,7 +4,6 @@ import Crew from '../../pages/crew/Crew';
 import Destination from '../../pages/destination/Destination';
 import Technology from '../../pages/technology/Technology';
 import { v4 } from 'uuid';
-import { DESTINATIONS_DATA } from '../../constants/destination-tabs';
 import Home from '../../pages/home/Home';
 
 const Router = () => {
@@ -22,13 +21,11 @@ const Router = () => {
           path='crew'
           element={<Crew />}
         />
-        {DESTINATIONS_DATA.map(destination => (
-          <Route
-            key={v4()}
-            path={destination.link}
-            element={<Destination />}
-          />
-        ))}
+        <Route
+          key={v4()}
+          path='destination'
+          element={<Destination />}
+        />
         <Route
           path='technology'
           element={<Technology />}

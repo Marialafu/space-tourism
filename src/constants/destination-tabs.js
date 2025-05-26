@@ -10,7 +10,7 @@ export const DESTINATION_TABS_DATA = {
     titan: 3,
 }
 
-export const DESTINATIONS_DATA = [
+export const DESTINATIONS_MENU = [
     {
         id: v4(),
         name: DESTINATIONS_INFO.moon.name,

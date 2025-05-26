@@ -1,4 +1,4 @@
-const FONTS = {
+export const FONTS = {
     primaryFont: {
         family: '"Bellefair", serif',
         weight: 400,

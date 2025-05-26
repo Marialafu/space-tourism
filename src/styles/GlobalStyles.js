@@ -1,4 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
+import { COLORS } from './colors';
+import { FONTS } from './fonts';
 
 export const GlobalStyles = createGlobalStyle`
 
@@ -29,8 +31,13 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     body {
-    margin: 3.125rem;
-    font-family: sans-serif;
+    margin: 0;
+    font-family: ${FONTS.primaryFont.family};
+    font-weight: ${FONTS.primaryFont.weight};
+    color: ${COLORS.white};
+    background-image: url(/assets/images/home/background-home-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     }
 
 `;
