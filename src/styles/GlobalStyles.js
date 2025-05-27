@@ -35,9 +35,6 @@ export const GlobalStyles = createGlobalStyle`
     font-family: ${FONTS.primaryFont.family};
     font-weight: ${FONTS.primaryFont.weight};
     color: ${COLORS.white};
-    background-image: url(/assets/images/home/background-home-mobile.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     }
 
 `;

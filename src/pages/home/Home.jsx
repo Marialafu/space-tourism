@@ -1,29 +1,29 @@
-import { StyledBackground } from './home.styled';
+import { Link } from 'react-router-dom';
+import { HOME_INFO } from '../../constants/home-info';
+import {
+  StyledButtonContainer,
+  StyledButtonText,
+  StyledGrid,
+  StyledTag,
+  StyledText,
+  StyledTextContainer,
+  StyledTitle
+} from './home.styled';
 
 const Home = () => {
   return (
-    <>
-      <h1>Home</h1>
-      {/* <StyledBackground>
-        <source
-          srcset='/assets/images/home/background-home-desktop.jpg'
-          media='(min-width: 1400px)'
-        />
-        <source
-          srcset='/assets/images/home/background-home-tablet.jpg'
-          media='(min-width: 768px)'
-        />
-        <source
-          srcset='/assets/images/home/background-home-mobile.jpg'
-          media='(min-width: 375px)'
-        />
-
-        <img
-          src='/assets/images/home/background-home-mobile.jpg'
-          alt=''
-        />
-      </StyledBackground> */}
-    </>
+    <StyledGrid>
+      <StyledTextContainer>
+        <StyledTag>{HOME_INFO.tag}</StyledTag>
+        <StyledTitle>{HOME_INFO.title}</StyledTitle>
+        <StyledText>{HOME_INFO.text}</StyledText>
+      </StyledTextContainer>
+      <StyledButtonContainer>
+        <StyledButtonText>
+          <Link to={'/destination'}>{HOME_INFO.button}</Link>
+        </StyledButtonText>
+      </StyledButtonContainer>
+    </StyledGrid>
   );
 };
 

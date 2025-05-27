@@ -1,7 +1,5 @@
 import { v4 } from "uuid"
 
-
-
 export const GLOBAL_MENU = [
     {
         id: v4(),

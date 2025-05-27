@@ -15,7 +15,10 @@ export const FONTS = {
         family: '"Barlow", sans-serif',
         weight: 400,
         letterSpacing: 4,
-        size: 18,
+        size:  {
+            large: 18,
+            medium: 15,
+        },
     },
     secondaryCondensedFont: {
         family: '"Barlow Condensed", sans-serif',
