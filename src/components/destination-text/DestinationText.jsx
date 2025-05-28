@@ -8,6 +8,7 @@ import { StyledContainer } from './destination-text.styled';
 const DestinationText = ({ tab, setTab }) => {
   const tabName = DESTINATION_TABS[tab];
   const destinationName = DESTINATIONS_INFO[tabName];
+  console.log(destinationName);
 
   return (
     <StyledContainer>
