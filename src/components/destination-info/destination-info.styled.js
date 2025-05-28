@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { FONTS } from "../../styles/fonts";
+import { COLORS } from "../../styles/colors";
 
 const StyledContainer = styled.div`
     display: flex;
@@ -7,6 +8,18 @@ const StyledContainer = styled.div`
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    margin-bottom: 3.0625rem;
+    position: relative;
+
+    &::after{
+        content: '';
+        position: absolute;
+        top: 110%;
+        width: 100%;
+        height: 0.0625rem;
+        background-color: ${COLORS.white};
+        opacity: 75%;
+    }
 
     @media screen and (min-width: 1400px) {
         align-items: start;

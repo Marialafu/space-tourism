@@ -1,3 +1,4 @@
+import styled from "styled-components"
 import { COLORS } from "../../styles/colors"
 import { FONTS } from "../../styles/fonts"
 
@@ -7,10 +8,12 @@ const StyledContainer = styled.div`
     gap: 1.5rem;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1.5rem;
 
     @media screen and (min-width: 768px) {
         flex-direction: row;
         gap: 1.5rem;
+        margin-bottom: 2.5rem;
     }
 `
 
@@ -19,7 +22,7 @@ const StyledDataContainer = styled(StyledContainer)`
 
     @media screen and (min-width: 768px) {
         flex-direction: column;
-        max-width: 15.3125rem;
+        width: 15.3125rem;
     }
 
     @media screen and (min-width: 1400px) {
@@ -33,13 +36,15 @@ const StyledDataContainer = styled(StyledContainer)`
 const StyledTitle = styled.span`
     font-family: ${FONTS.secondaryCondensedFont.family};
     font-weight: ${FONTS.secondaryCondensedFont.weight};
-    font-size: ${FONTS.secondaryCondensedFont.size.small};
+    font-size: ${FONTS.secondaryCondensedFont.size.medium}px;
     color: ${COLORS.blue300};
     letter-spacing: ${FONTS.secondaryCondensedFont.letterSpacingMin};
+    text-transform: uppercase;
 `
 
 const StyledText = styled.span`
-    font-size: ${FONTS.primaryFont.size.extraSmall};
+    font-size: ${FONTS.primaryFont.size.small}px;
+    text-transform: uppercase;
 `
 
 export {StyledContainer, StyledDataContainer, StyledTitle, StyledText}
