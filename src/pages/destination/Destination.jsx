@@ -1,11 +1,11 @@
 import DestinationInfoContainer from '../../components/destination-info-container/DestinationInfoContainer';
-import DestinationLabel from '../../components/destination-label/DestinationLabel';
+import Label from '../../components/label/label';
 import { StyledContainer } from './destination.styled';
 
 const Destination = () => {
   return (
     <StyledContainer>
-      <DestinationLabel />
+      <Label />
       <DestinationInfoContainer />
     </StyledContainer>
   );

@@ -18,7 +18,7 @@ const StyledHamburguer = styled.img`
 const StyledX = styled(StyledHamburguer)`
     width: 1.1875rem;
     height: 1.1875rem;
-    z-index: 2;
+    z-index: 3;
 `
 
 
@@ -27,6 +27,7 @@ const StyledMenu = styled.ul`
     flex-direction: column;
     gap: 2rem;
     position: absolute;
+    z-index: 2;
     top: 0;
     right: 0;
     padding: 8.3125rem 0 0 2rem;
@@ -77,6 +78,7 @@ const StyledLink = styled(NavLink)`
     
     &.active{
         border-right: 0.3125rem solid ${COLORS.white};
+        padding-right: 21.3125rem;
     }
     
     @media (hover: hover) {
@@ -86,6 +88,7 @@ const StyledLink = styled(NavLink)`
     @media screen and (min-width: 768px) {
         &.active{
             border-right: 0;
+            padding-right: 0;
             
         }
 

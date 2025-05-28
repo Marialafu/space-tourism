@@ -1,5 +1,11 @@
+import Label from '../../components/label/label';
+
 const Technology = () => {
-  return <h1>Technology</h1>;
+  return (
+    <>
+      <Label />
+    </>
+  );
 };
 
 export default Technology;

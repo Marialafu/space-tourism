@@ -5,18 +5,18 @@ export const BACKGROUND_IMAGE = {
         mobile: '/assets/images/home/background-home-mobile.jpg'
     },
     destination: {
-        desktop: '/assets/images/home/background-destination-desktop.jpg',
-        tablet: '/assets/images/home/background-destination-tablet.jpg',
-        mobile: '/assets/images/home/background-destination-mobile.jpg'
+        desktop: '/assets/images/destination/background-destination-desktop.jpg',
+        tablet: '/assets/images/destination/background-destination-tablet.jpg',
+        mobile: '/assets/images/destination/background-destination-mobile.jpg'
     },
     crew: {
-        desktop: '/assets/images/home/background-crew-desktop.jpg',
-        tablet: '/assets/images/home/background-crew-tablet.jpg',
-        mobile: '/assets/images/home/background-crew-mobile.jpg'
+        desktop: '/assets/images/crew/background-crew-desktop.jpg',
+        tablet: '/assets/images/crew/background-crew-tablet.jpg',
+        mobile: '/assets/images/crew/background-crew-mobile.jpg'
     },
     technology: {
-        desktop: '/assets/images/home/background-technology-desktop.jpg',
-        tablet: '/assets/images/home/background-technology-tablet.jpg',
-        mobile: '/assets/images/home/background-technology-mobile.jpg'
+        desktop: '/assets/images/technology/background-technology-desktop.jpg',
+        tablet: '/assets/images/technology/background-technology-tablet.jpg',
+        mobile: '/assets/images/technology/background-technology-mobile.jpg'
     },
 }
