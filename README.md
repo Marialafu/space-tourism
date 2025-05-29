@@ -18,7 +18,7 @@ El objetivo es construir un sitio multipágina con diferentes secciones (Inicio,
 
 ## ¿Qué he aprendido en este proyecto? 🙇🏻
 
-El tema principal es el enrutamiento, tanto entre páginas como de manera interna, mediante el layout.
+Aprendí a trabajar con rutas anidadas y layouts en React Router, manejar tabs dentro de una misma vista y aplicar estilos dinámicos con styled-components. También entendí mejor cómo estructurar un proyecto multipágina sin perder orden ni coherencia visual.
 
 ## Tecnologías 🛠
 
