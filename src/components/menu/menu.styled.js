@@ -54,7 +54,7 @@ const StyledMenu = styled.ul`
             content: '';
             position: absolute;
             height: 0.0625rem;
-            width: 35rem;
+            min-width: 35rem;
             top: 50%;
             left: -80%;
             background-color: rgba(255, 255, 255, 0.25);

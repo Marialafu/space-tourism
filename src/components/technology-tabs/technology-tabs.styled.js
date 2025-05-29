@@ -7,6 +7,10 @@ const StyledContainer = styled.div`
     flex-direction: row;
     gap: 1rem;
     justify-content: center;
+
+    @media screen and (min-width: 1400px) {
+        flex-direction: column;
+    }
 `
 
 const StyledTab = styled.div`
@@ -17,8 +21,8 @@ const StyledTab = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: ${({$tab, $eachtab}) => $tab === $eachtab ? 'white' :  'transparent'};
-    color: ${({$tab, $eachtab}) => $tab === $eachtab ? 'black' :  'white'};
+    background-color: ${({$tab, $eachTab}) => $tab === $eachTab ? COLORS.white :  'transparent'};
+    color: ${({$tab, $eachTab}) => $tab === $eachTab ? COLORS.blue900 :  COLORS.white};
 
     @media screen and (min-width: 768px) {
         height: 3.5rem;

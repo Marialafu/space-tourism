@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+import { HOME_INFO } from '../../constants/home-info';
 import Menu from '../menu/Menu';
 import {
   StyledHeaderContainer,
@@ -9,10 +11,14 @@ const Header = () => {
   return (
     <StyledHeaderContainer>
       <StyledLogoContainer>
-        <StyledLogo
-          src='/assets/images/shared/logo.svg'
-          alt='logo'
-        />
+        <Link to={'/'}>
+          {
+            <StyledLogo
+              src='/assets/images/shared/logo.svg'
+              alt='logo'
+            />
+          }
+        </Link>
       </StyledLogoContainer>
       <Menu />
     </StyledHeaderContainer>

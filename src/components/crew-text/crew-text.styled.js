@@ -24,11 +24,13 @@ const StyledContainer = styled.div`
 const StyledTagText = styled.span`
     font-size: ${FONTS.primaryFont.size.extraSmall}px;
     opacity: 75%;
+    text-transform: uppercase;
 `
 
 const StyledTitle = styled.h2`
     margin: 0;
     font-size: ${FONTS.primaryFont.size.small}px;
+    text-transform: uppercase;
 `
 
 const StyledText = styled.p`

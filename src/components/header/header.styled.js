@@ -22,6 +22,7 @@ export const StyledLogoContainer = styled.div`
 
 export const StyledLogo = styled.img`
     width: 2.5rem;
+    cursor: pointer;
 
     @media screen and (min-width: 768px) {
         width: 3rem;

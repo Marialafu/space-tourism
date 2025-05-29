@@ -19,9 +19,9 @@ const Home = () => {
         <StyledText>{HOME_INFO.text}</StyledText>
       </StyledTextContainer>
       <StyledButtonContainer>
-        <StyledButtonText>
-          <Link to={'/destination'}>{HOME_INFO.button}</Link>
-        </StyledButtonText>
+        <Link to={'/destination'}>
+          {<StyledButtonText>{HOME_INFO.button}</StyledButtonText>}
+        </Link>
       </StyledButtonContainer>
     </StyledGrid>
   );

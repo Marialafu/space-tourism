@@ -1,6 +1,8 @@
-export const CREW_TABS = {
-    commander: 0,
-    specialist: 1,
-    pilot: 2,
-    engineer: 3, 
+export const CREW_TABS = [0, 1, 2, 3]
+
+export const CREW_TABS_DATA = {
+    0: 'commander',
+    1: 'specialist',
+    2: 'pilot',
+    3: 'engineer',
 }

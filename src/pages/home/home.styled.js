@@ -51,6 +51,7 @@ const StyledText = styled.p`
     font-weight: ${FONTS.secondaryFont.weight};
     font-size: ${FONTS.secondaryFont.size.medium}px;
     width: 31.25rem;
+    color: ${COLORS.blue300};
 
      @media screen and (min-width: 768px) {
         font-size: ${FONTS.secondaryFont.size.large}px;
@@ -72,6 +73,10 @@ const StyledButtonText = styled.span`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    &:hover{
+        box-shadow: 0 0 0 3.125rem rgba(255, 255, 255, 0.25);
+    }
 
     @media screen and (min-width: 768px) {
         width: 17rem;

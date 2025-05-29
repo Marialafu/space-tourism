@@ -1,5 +1,14 @@
+import CrewContainer from '../../components/crew-container/CrewContainer';
+import Label from '../../components/label/label';
+import { StyledContainer } from './crew.styled';
+
 const Crew = () => {
-  return <h1>Crew</h1>;
+  return (
+    <StyledContainer>
+      <Label />
+      <CrewContainer />
+    </StyledContainer>
+  );
 };
 
 export default Crew;

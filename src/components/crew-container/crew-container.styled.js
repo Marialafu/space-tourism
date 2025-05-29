@@ -14,7 +14,7 @@ const StyledGrid = styled.div`
     }
 
     @media screen and (min-width: 1400px) {
-        flex-direction: row-reverse;
+        flex-direction: row;
         justify-content: space-between;
         gap: 2rem;
         padding-top: 1.25rem;
@@ -29,8 +29,8 @@ const StyledContainer = styled.div`
     gap: 2.5rem;
 
     @media screen and (min-width: 1400px) {
-        flex-direction: row;
-        gap: 4rem;
+        gap: 11.8125rem;
+        align-items: flex-start;
     }
 `
 

@@ -10,7 +10,7 @@ const StyledGrid = styled.div`
     @media screen and (min-width: 1400px) {
         flex-direction: row;
         gap: 2rem;
-        padding: 5rem 0
+        padding: 2.5rem 0
     }
 `
 

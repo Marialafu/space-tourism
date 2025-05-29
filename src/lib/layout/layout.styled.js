@@ -5,7 +5,7 @@ export const StyledContainer = styled.div`
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    overflow-x: clip;
+    overflow-y: clip;
     min-height: 100vh;
 
     @media screen and (min-width: 768px) {

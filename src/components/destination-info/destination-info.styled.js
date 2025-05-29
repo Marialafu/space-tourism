@@ -41,6 +41,7 @@ const StyledText = styled.p`
     font-weight: ${FONTS.secondaryFont.weight};
     font-size: ${FONTS.secondaryFont.size.medium}px;
     text-align: center;
+    color: ${COLORS.blue300};
 
     @media screen and (min-width: 1400px) {
         text-align: start;

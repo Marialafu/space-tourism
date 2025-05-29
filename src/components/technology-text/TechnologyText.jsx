@@ -8,7 +8,6 @@ import {
 
 const TechnologyText = ({ tab }) => {
   const tabInfo = TECH_INFO[tab];
-  console.log(tabInfo);
 
   return (
     <StyledContainer>

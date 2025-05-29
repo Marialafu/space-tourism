@@ -5,8 +5,3 @@ export const TECHNOLOGY_TABS_DATA = {
     1: 'spaceport',
     2: 'spaceCapsule',
 }
- const TECHNOLOGY_TABS_NAMES = {
-    vehicle: 0,
-    spaceport: 1,
-    spaceCapsule: 2,
-}
