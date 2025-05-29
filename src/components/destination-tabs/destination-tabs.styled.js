@@ -15,6 +15,7 @@ const StyledTab = styled.span`
     padding-bottom: 0.625rem;
     border-bottom: 0.1875rem solid ${({$tab, $eachTab}) => $tab === $eachTab ? 'white' : 'transparent'};
     opacity: ${({$tab, $eachTab}) => $tab === $eachTab ? '100%' : '60%'};
+    cursor: pointer;
 
     @media screen and (min-width: 768px) {
         font-size: ${FONTS.secondaryCondensedFont.size.medium}px;

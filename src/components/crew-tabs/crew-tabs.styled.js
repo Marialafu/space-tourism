@@ -17,6 +17,7 @@ export const StyledTab = styled.div`
     border-radius: 50%;
     background-color: ${COLORS.white};
     opacity: ${({$tab, $eachTab}) => $tab === $eachTab ? '100%' : '25%'};
+    cursor: pointer;
 
     @media screen and (min-width: 1400px) {
        width: 0.9375rem;

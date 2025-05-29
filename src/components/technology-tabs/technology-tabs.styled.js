@@ -23,6 +23,7 @@ const StyledTab = styled.div`
     align-items: center;
     background-color: ${({$tab, $eachTab}) => $tab === $eachTab ? COLORS.white :  'transparent'};
     color: ${({$tab, $eachTab}) => $tab === $eachTab ? COLORS.blue900 :  COLORS.white};
+    cursor: pointer;
 
     @media screen and (min-width: 768px) {
         height: 3.5rem;
