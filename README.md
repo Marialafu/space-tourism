@@ -50,17 +50,17 @@ María Lafuente
 
 <ul>
     <li>
-        <a href="micorreo@midominio.com">micorreo@midominio.com</a>
+        <a href="mailto:lafuentelhmaria@gmail.com">lafuentelhmaria@gmail.com</a>
     </li>
     <li>
-        <a href="https://www.linkedin.com/in/tu-url-de-linkedin/">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/maria-lafu/">LinkedIn</a>
     </li>
     <li>
         <a href="https://tu-dominio.com/">Porfolio web</a>
     </li>
 </ul>
 
-## Link del reto (si es público)
+## Link del reto
 
 <a href="https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3">Página de frontendmentor</a>
 
